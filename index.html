@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corazones Caninos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="/Estilos/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Corazones Caninos</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="van-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="van-item"><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li class="van-item"><a href="#adopcion" class="nav-link">Adopción</a></li>
+                <li class="van-item"><a href="#como-ayudar" class="nav-link">Cómo Ayudar</a></li>
+                <li class="van-item"><a href="#donaciones" class="nav-link">Donaciones</a></li>
+                <li class="van-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                <li class="van-item"><a href="#galeria" class="nav-link">Galería</a></li>
+                <li class="van-item"><a href="#equipo" class="nav-link">Nuestro Equipo</a></li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Inicio -->
+        <section id="inicio" class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Nuestros Perros</h2>
+                    <h3 class="subtitle">Conoce más a nuestros perros</h3>
+                    <p class="description">Bienvenidos a nuestro sitio. Aquí podrán ayudar con la adopción de perros en situación de calle.</p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Más información</a>
+                        <a href="#" class="button contact-us">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="/Imagenes/perrofondo.jpg" alt="Perros" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Nosotros -->
+        <section id="nosotros" class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="/Imagenes/about1.jpg" alt="Nosotros" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">Nosotros</h2>
+                    <p class="text">Nos dedicamos al cuidado y rehabilitación de perros con diversas necesidades especiales.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Adopción -->
+        <section id="adopcion" class="adoption-section">
+            <div class="section-content">
+                <div class="adoption-details">
+                    <h2 class="section-title">Adopción</h2>
+                    <p class="text">Explora nuestra lista de perros disponibles para adopción y encuentra a tu compañero perfecto.</p>
+                </div>
+                <div class="adoption-image-wrapper">
+                    <img src="/Imagenes/adoption.jpg" alt="Adopción" class="adoption-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Cómo Ayudar -->
+        <section id="como-ayudar" class="help-section">
+            <div class="section-content">
+                <div class="help-image-wrapper">
+                    <img src="/Imagenes/help.jpg" alt="Cómo Ayudar" class="help-image">
+                </div>
+                <div class="help-details">
+                    <h2 class="section-title">Cómo Ayudar</h2>
+                    <p class="text">Desde voluntariado hasta donar artículos esenciales, hay muchas maneras de apoyar.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Donaciones -->
+        <section id="donaciones" class="donations-section">
+            <div class="section-content">
+                <div class="donations-details">
+                    <h2 class="section-title">Donaciones</h2>
+                    <p class="text">Tus donaciones permiten proveer refugio, comida y atención médica para los perros más necesitados.</p>
+                    <form class="donation-form">
+                        <label for="amount">Monto a donar:</label>
+                        <select id="amount" name="amount">
+                            <option value="100">100 MXN</option>
+                            <option value="200">200 MXN</option>
+                            <option value="500">500 MXN</option>
+                            <option value="1000">1000 MXN</option>
+                        </select>
+                        <label for="payment-method">Método de pago:</label>
+                        <select id="payment-method" name="payment-method">
+                            <option value="tarjeta">Tarjeta de crédito/débito</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="transferencia">Transferencia bancaria</option>
+                        </select>
+                        <button type="submit" class="button donate-button">Donar ahora</button>
+                    </form>
+                </div>
+                <div class="donations-image-wrapper">
+                    <img src="/Imagenes/donations.jpg" alt="Donaciones" class="donations-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="contact-section">
+            <div class="section-content">
+                <div class="contact-details">
+                    <h2 class="section-title">Contacto</h2>
+                    <p class="text">Contáctanos para más información.</p>
+                </div>
+                <div class="contact-image-wrapper">
+                    <img src="/Imagenes/contact.jpg" alt="Contacto" class="contact-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Galería -->
+        <section id="galeria" class="gallery-section">
+            <div class="section-content">
+                <h2 class="section-title">Galería</h2>
+                <div class="gallery-images">
+                    <img src="/Imagenes/dog-3597724-1920.jpg" alt="Galería 1" style="height: 200px;" class="gallery-image">
+                    <img src="/Imagenes/GCC63ARN3JB73GTKHZEDY5EGDA.jpg" alt="Galería 2" style="height: 200px;" class="gallery-image">
+                    <img src="/Imagenes/perro_0.jpeg" alt="Galería 3" style="height: 200px;" class="gallery-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Nuestro Equipo -->
+        <section id="equipo" class="team-section">
+            <div class="section-content">
+                <h2 class="section-title">Nuestro Equipo</h2>
+                <div class="team-grid">
+                    <!-- Integrante 1 -->
+                    <div class="team-member">
+                        <div class="team-image-wrapper">
+                            <a href="/paginas/jose-casillas.html" target="_blank">
+                                <img src="/Imagenes/foto.jpeg" alt="Integrante 1" class="team-image">
+                            </a>
+                        </div>
+                        <div class="team-details">
+                            <a href="/paginas/jose-casillas.html" target="_blank">
+                                <h3 class="team-name">José Casillas</h3>
+                            </a>
+                            <p class="team-role">Fundador y Director</p>
+                            <p class="team-description">Apasionado por rescatar y ayudar a perros en situaciones vulnerables.</p>
+                        </div>
+                    </div>
+                    <!-- Integrante 2 -->
+                    <div class="team-member">
+                        <div class="team-image-wrapper">
+                            <a href="/Página Personal Paola/index.html" target="_blank">
+                                <img src="/Imagenes/WhatsApp Image 2025-02-13 at 5.40.17 PM.jpeg" alt="Integrante 2" class="team-image">
+                            </a>
+                        </div>
+                        <div class="team-details">
+                            <a href="/Página Personal Paola/index.html" target="_blank">
+                                <h3 class="team-name">Paola Estrada</h3>
+                            </a>
+                            <p class="team-role">Médico Veterinario</p>
+                            <p class="team-description">Especialista en rehabilitación y cuidado médico de los perros rescatados.</p>
+                        </div>
+                    </div>
+                    <!-- Integrante 3 -->
+                    <div class="team-member">
+                        <div class="team-image-wrapper">
+                            <a href="/paginas/mario-montiel.html" target="_blank">
+                                <img src="/Imagenes/integrante3.jpg" alt="Integrante 3" class="team-image">
+                            </a>
+                        </div>
+                        <div class="team-details">
+                            <a href="/paginas/mario-montiel.html" target="_blank">
+                                <h3 class="team-name">Mario Montiel</h3>
+                            </a>
+                            <p class="team-role">Coordinador de Adopciones</p>
+                            <p class="team-description">Encargado de encontrar hogares responsables y amorosos para nuestros perros.</p>
+                        </div>
+                    </div>
+                    <!-- Integrante 4 -->
+                    <div class="team-member">
+                        <div class="team-image-wrapper">
+                            <a href="/misitio/misitio/PaginaPersonal.html" target="_blank">
+                                <img src="/Imagenes/LauraLizette.jpeg" alt="Integrante 4" class="team-image">
+                            </a>
+                        </div>
+                        <div class="team-details">
+                            <a href="/misitio/misitio/PaginaPersonal.html" target="_blank">
+                                <h3 class="team-name">Laura Lizeth</h3>
+                            </a>
+                            <p class="team-role">Voluntaria y Entrenadora</p>
+                            <p class="team-description">Ayuda en el entrenamiento y socialización de los perros rescatados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
